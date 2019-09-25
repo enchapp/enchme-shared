@@ -1,0 +1,22 @@
+{
+  "name": "enchme-shared",
+  "version": "1.0.0",
+  "description": "Shared libs between front and backend sides",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firestats/enchme-shared.git"
+  },
+  "author": "artmadiar@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firestats/enchme-shared/issues"
+  },
+  "homepage": "https://github.com/Firestats/enchme-shared#readme",
+  "dependencies": {
+    "is-my-json-valid": "^2.20.0"
+  }
+}
