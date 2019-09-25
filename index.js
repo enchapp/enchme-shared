@@ -28,4 +28,4 @@ const validateScheme = (input) => {
   };
 }
 
-module.exports = validateScheme;
+module.exports.validateScheme = validateScheme;
