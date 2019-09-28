@@ -28,4 +28,15 @@ const validateScheme = (input) => {
   };
 }
 
+/**
+ * Validate username
+ *
+ * @param {String} username
+ * @returns {Boolean}
+ */
+const validUsername = username => /^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/.test(username);
+
+
+
 module.exports.validateScheme = validateScheme;
+module.exports.validUsername = validUsername;
