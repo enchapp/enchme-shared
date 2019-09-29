@@ -9,6 +9,10 @@ module.exports = {
     components: {
       required: true,
       type: 'array'
+    },
+    showEnchLogo: {
+      required: true,
+      type: 'boolean'
     }
   }
 };
