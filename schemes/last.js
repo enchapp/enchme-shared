@@ -16,7 +16,10 @@ module.exports = {
     },
     source: {
       required: true,
-      type: 'string'
+      type: 'string',
     },
+    fromTemplate: {
+      required: true,
+    }
   }
 };
