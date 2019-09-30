@@ -20,6 +20,10 @@ module.exports = {
     },
     fromTemplate: {
       required: true,
-    }
-  }
+    },
+    structureVersion: {
+      required: true,
+      type: 'string',
+    },
+  },
 };
