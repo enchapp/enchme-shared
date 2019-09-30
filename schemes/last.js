@@ -13,6 +13,10 @@ module.exports = {
     showEnchLogo: {
       required: true,
       type: 'boolean'
-    }
+    },
+    source: {
+      required: true,
+      type: 'string'
+    },
   }
 };
