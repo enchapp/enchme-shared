@@ -1,6 +1,3 @@
-const validators = require('./validators');
-const constants = require('./constants');
-
-
-module.exports.validators = validators;
-module.exports.constants = constants;
+module.exports.validators = require('./validators');;
+module.exports.constants = require('./constants');
+module.exports.examples = require('./examples');
