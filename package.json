@@ -1,5 +1,5 @@
 {
-  "name": "enchme-shared",
+  "name": "@ench/shared",
   "version": "1.0.0",
   "description": "Shared libs between front and backend sides",
   "main": "index.js",
