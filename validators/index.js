@@ -34,8 +34,8 @@ const validateScheme = (input) => {
  * @param {String} username
  * @returns {Boolean}
  */
-const validUsername = username => /^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/.test(username);
-
+// const validUsername = username => /^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/.test(username);
+const validUsername = username => new RegExp(`^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$`).test(username);
 
 
 module.exports.validateScheme = validateScheme;
