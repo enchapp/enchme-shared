@@ -6,6 +6,8 @@ const metaValidate = validator(schema, {
   verbose: true,
 });
 
+const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._".split('');
+
 /**
  * Validate page scheme
  * @param {Object} input scheme
@@ -35,8 +37,20 @@ const validateScheme = (input) => {
  * @returns {Boolean}
  */
 // const validUsername = username => /^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/.test(username);
-const validUsername = username => new RegExp(`^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$`).test(username);
+const validUsername = username => {
+  if (!username) return false;
+  if (typeof username !== 'string') return false;
+  if (username.length <4 || username.length > 32) return false;
 
+  const chartsOk = username.split('').reduce((res, char) => {
+    if (!res) return res;
+    return (acceptedChars.indexOf(char) !== -1);
+  }, true);
+
+  if (!chartsOk) return false;
+
+  return true;
+}
 
 module.exports.validateScheme = validateScheme;
 module.exports.validUsername = validUsername;
