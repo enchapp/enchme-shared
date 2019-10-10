@@ -6,7 +6,7 @@ const metaValidate = validator(schema, {
   verbose: true,
 });
 
-const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._".split('');
+const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._1234567890".split('');
 
 /**
  * Validate page scheme
