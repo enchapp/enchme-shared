@@ -1,14 +1,43 @@
 module.exports.defaultPage = {
-  globalSettings: {
-    font: 'Lato',
-    button: {
-      backgroundColor: '244,67,55',
-      borderType: { radius: '1.0rem', name: 'Rounded', isFully: false },
-      textColor: '255,255,255,1'
+  settings: {
+    fonts: {
+      Heading: {
+        fontFamily: 'Helvetica',
+        fontSize: '44',
+        color: {
+          current: '225,87,87',
+          lastColors: ['225,87,87']
+        }
+      },
+      Title: {
+        fontFamily: 'Lato',
+        fontSize: '32',
+        color: {
+          current: '245,245,245',
+          lastColors: ['245,245,245']
+        }
+      },
+      Description: {
+        fontFamily: 'Lato',
+        fontSize: '12',
+        color: {
+          current: '164,164,164',
+          lastColors: ['164,164,164']
+        }
+      }
     },
-    headingColor: '244,67,55',
-    backgroundView: { type: "COLOR", color: '255,255,255', opacity: '1' },
-    selectedPalette: 'NORMAL'
+    styles: {
+      shape: {
+        name: 'Rounded',
+        isFully: false,
+        radius: '3px'
+      },
+      buttonStyle: { type: 'NORMAL' },
+      backgroundView: {
+        type: "COLOR",
+        color: '255,255,255'
+      }
+    }
   },
   components: [],
   showEnchLogo: true,
