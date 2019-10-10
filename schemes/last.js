@@ -2,7 +2,7 @@ module.exports = {
   required: true,
   type: 'object',
   properties: {
-    globalSettings: {
+    settings: {
       required: true,
       type: 'object'
     },
