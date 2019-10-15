@@ -35,8 +35,9 @@ module.exports.defaultPage = {
       buttonStyle: { type: 'NORMAL' },
       backgroundView: {
         type: "COLOR",
-        color: '255,255,255'
-      }
+        color: '48,63,159'
+      },
+      mainColor: "63,81,181"
     }
   },
   components: [],
