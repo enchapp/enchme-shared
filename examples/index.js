@@ -3,7 +3,7 @@ module.exports.defaultPage = {
     fonts: {
       Heading: {
         fontFamily: 'Helvetica',
-        fontSize: '44',
+        fontSize: { minValue: 30, maxValue: 40, value: "35" },
         color: {
           current: '225,87,87',
           lastColors: ['225,87,87']
@@ -11,7 +11,7 @@ module.exports.defaultPage = {
       },
       Title: {
         fontFamily: 'Lato',
-        fontSize: '32',
+        fontSize: { minValue: 20, maxValue: 30, value: "25" },
         color: {
           current: '245,245,245',
           lastColors: ['245,245,245']
@@ -19,7 +19,7 @@ module.exports.defaultPage = {
       },
       Description: {
         fontFamily: 'Lato',
-        fontSize: '12',
+        fontSize: { minValue: 10, maxValue: 20, value: "15" },
         color: {
           current: '164,164,164',
           lastColors: ['164,164,164']
@@ -37,7 +37,7 @@ module.exports.defaultPage = {
         type: "COLOR",
         color: '48,63,159'
       },
-      mainColor: "63,81,181"
+      mainColor: '63,81,181'
     }
   },
   components: [],
