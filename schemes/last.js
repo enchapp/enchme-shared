@@ -10,14 +10,6 @@ module.exports = {
       required: true,
       type: 'array'
     },
-    showEnchLogo: {
-      required: true,
-      type: 'boolean'
-    },
-    source: {
-      required: true,
-      type: 'string',
-    },
     fromTemplate: {
       required: true,
     },
