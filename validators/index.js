@@ -1,5 +1,7 @@
 const validator = require('is-my-json-valid');
 
+const basicPageSchema = require('../schemes/basicPage');
+
 const pageSchema = require('../schemes/page');
 const buttonSchema = require('../schemes/button');
 const dividerSchema = require('../schemes/divider');
@@ -15,6 +17,9 @@ const socialSchema = require('../schemes/social');
 const textSchema = require('../schemes/text');
 const videoSchema = require('../schemes/video');
 
+const basicPageValidator = validator(basicPageSchema, {
+  verbose: true,
+});
 
 const pageValidator = validator(pageSchema, {
   verbose: true,
@@ -46,7 +51,21 @@ const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._123
  * @returns {Boolean} result.success
  * @returns {Object[]} errors [{ field: "", message: "", value: "", type: "", schemaPath: [] }]
  */
-const validateScheme = (input) => {
+const validateScheme = (input, deep = false) => {
+  if (!deep) {
+    const basicPageResult = basicPageValidator(input);
+    if (!basicPageResult) {
+      return {
+        success: false,
+        errors: basicPageValidator.errors
+      };
+    }
+    return {
+      success: true,
+      errors: [],
+    }
+  }
+
   const pageResult = pageValidator(input);
   if (!pageResult) {
     return {
