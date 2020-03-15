@@ -1,0 +1,666 @@
+{
+  "components": [
+    {
+      "type": "profile",
+      "profileImage": {
+        "mediaUrl": null,
+        "resourceType": "source",
+        "styles": {
+          "align": {
+            "swap": false,
+            "align": "center",
+            "union": true
+          },
+          "borderRadius": "70",
+          "height": "120",
+          "width": "120",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "title": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "text": "e.g. Pied Piper",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "textAlign": "center",
+          "textColor": "#151515",
+          "fontFamily": "LATO",
+          "fontSize": "22",
+          "lineHeight": "25",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textDecoration": "none"
+        }
+      },
+      "body": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "text": "The internet we deserve",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "textAlign": "center",
+          "textColor": "#a3a8aa",
+          "fontFamily": "LATO",
+          "fontSize": "18",
+          "lineHeight": "22",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textDecoration": "none"
+        }
+      },
+      "id": "7f3b107c-96fa-43b3-83d1-12b1d00f47a2"
+    },
+    {
+      "type": "header",
+      "header": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "text": "Great title",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "fontSize": "28",
+          "fontFamily": "LATO",
+          "textColor": "#151515",
+          "textAlign": "center",
+          "lineHeight": "38",
+          "fontWeight": "bold",
+          "fontStyle": "normal",
+          "textDecoration": "none"
+        }
+      },
+      "id": "4747b3ee-5c9d-46c3-81ca-2c84330e4842"
+    },
+    {
+      "type": "text",
+      "text": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "text": "Your amazing story...",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "fontSize": "18",
+          "fontFamily": "LATO",
+          "textColor": "#151515",
+          "textAlign": "left",
+          "lineHeight": "22",
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textDecoration": "none"
+        }
+      },
+      "id": "1e6718f4-9b1f-4aec-b99f-1a9326f4caff"
+    },
+    {
+      "type": "button",
+      "button": {
+        "text": "Name your button",
+        "link": {
+          "value": "ench.me",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //ench.me"
+        },
+        "mediaUrl": null,
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "fontFamily": "LATO",
+          "fontSize": "20",
+          "fontWeight": "normal",
+          "textDecoration": "none",
+          "fontStyle": "normal",
+          "textColor": "#ffffff",
+          "color": "#252525",
+          "buttonStyle": "Normal",
+          "padding": "15",
+          "borderRadius": "0",
+          "justifyContent": "center",
+          "align": {
+            "swap": false,
+            "align": "center",
+            "union": true
+          },
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "id": "d0b4e0f5-4091-4623-9594-7cd456c8a096"
+    },
+    {
+      "type": "image",
+      "image": {
+        "mediaUrl": "",
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "aspect": "11",
+          "height": 300,
+          "borderRadius": 0,
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          },
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          }
+        }
+      },
+      "id": "977e80cc-406a-4ba7-884a-b74d6f9d52f8"
+    },
+    {
+      "type": "video",
+      "video": {
+        "mediaUrl": "",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          },
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          }
+        }
+      },
+      "id": "9c2baf39-e889-4a04-867d-dfa65f993cc4"
+    },
+    {
+      "type": "social",
+      "renderedElems": 5,
+      "icon_1": {
+        "id": "d2a40f25-0eed-4399-bd05-2698c5778151",
+        "link": {
+          "value": "https: //www.whatsapp.com/",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.whatsapp.com/"
+        },
+        "group": "messenger",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "type": "whatsapp",
+        "styles": {
+          "color": "#1bd741",
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "icon_2": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "icon_3": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "icon_4": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "icon_5": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "icon_6": {
+        "link": {
+          "value": "",
+          "type": "url",
+          "action": "https: //",
+          "placeholder": "https: //www.ench.me/"
+        },
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "borderRadius": "0",
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          },
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          }
+        }
+      },
+      "id": "b087d061-49d8-415d-9dac-db309fa49ccd"
+    },
+    {
+      "type": "form",
+      "components": [
+        {
+          "type": "text",
+          "id": "a1bed1d0-0b8d-40fa-858a-080d85d51268",
+          "text": {
+            "link": {
+              "value": "",
+              "type": "url",
+              "action": "https: //",
+              "placeholder": "https: //www.ench.me/"
+            },
+            "text": "Email",
+            "relation": "email",
+            "historicalColors": [
+              "#c74545",
+              "#4285f4",
+              "#ebd92e",
+              "#eb152e",
+              "#16d92e",
+              "#ebd901"
+            ],
+            "styles": {
+              "fontSize": "18",
+              "fontFamily": "ARSENAL",
+              "textColor": "#151515",
+              "textAlign": "left",
+              "lineHeight": "20",
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textDecoration": "none"
+            }
+          }
+        },
+        {
+          "type": "input",
+          "id": "6d277a75-7f9b-468f-8d54-82987b5a2551",
+          "text": {
+            "text": "",
+            "historicalColors": [
+              "#c74545",
+              "#4285f4",
+              "#ebd92e",
+              "#eb152e",
+              "#16d92e",
+              "#ebd901"
+            ],
+            "placeholder": "your@email.com",
+            "inputType": "email",
+            "relation": "email",
+            "name": "email",
+            "styles": {
+              "fontSize": "18",
+              "fontFamily": "ARSENAL",
+              "textColor": "#151515",
+              "textAlign": "left",
+              "lineHeight": "22",
+              "fontWeight": "normal",
+              "fontStyle": "normal",
+              "textDecoration": "none",
+              "color": "#F4F4F4",
+              "borderRadius": "0",
+              "border": {
+                "color": "#fff",
+                "thick": 0
+              },
+              "shadow": {
+                "active": false,
+                "color": "#000",
+                "positionX": 0,
+                "positionY": 0,
+                "blur": 0,
+                "spread": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "button",
+          "buttonType": "submit",
+          "id": "ee1cae30-42b6-43bb-811d-37906d2bd826",
+          "button": {
+            "link": {
+              "value": "",
+              "type": "url",
+              "action": "https: //",
+              "placeholder": "https: //www.ench.me/"
+            },
+            "text": "Send",
+            "historicalColors": [
+              "#c74545",
+              "#4285f4",
+              "#ebd92e",
+              "#eb152e",
+              "#16d92e",
+              "#ebd901"
+            ],
+            "styles": {
+              "fontFamily": "ARSENAL",
+              "fontSize": "20",
+              "textColor": "#ffffff",
+              "fontWeight": "normal",
+              "textDecoration": "none",
+              "fontStyle": "normal",
+              "color": "#252525",
+              "buttonStyle": "Normal",
+              "padding": "15",
+              "borderRadius": "0",
+              "justifyContent": "center",
+              "align": {
+                "swap": false,
+                "align": "center",
+                "union": true
+              },
+              "shadow": {
+                "active": false,
+                "color": "#000",
+                "positionX": 0,
+                "positionY": 0,
+                "blur": 0,
+                "spread": 0
+              },
+              "border": {
+                "color": "#fff",
+                "thick": 0
+              }
+            }
+          }
+        }
+      ],
+      "id": "3f4e3c26-8001-4cb4-8921-36c9818bb641"
+    },
+    {
+      "type": "embed",
+      "embed": {
+        "mediaUrl": "",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "border": {
+            "color": "#fff",
+            "thick": 0
+          },
+          "shadow": {
+            "active": false,
+            "color": "#000",
+            "positionX": 0,
+            "positionY": 0,
+            "blur": 0,
+            "spread": 0
+          }
+        }
+      },
+      "id": "779e14a2-2553-4caa-8ed9-d3d6b9e9f931"
+    },
+    {
+      "type": "divider",
+      "line": {
+        "dividerLineType": "normal",
+        "historicalColors": [
+          "#c74545",
+          "#4285f4",
+          "#ebd92e",
+          "#eb152e",
+          "#16d92e",
+          "#ebd901"
+        ],
+        "styles": {
+          "width": 100,
+          "color": "#A3A8AA",
+          "margin": "0",
+          "padding": "15"
+        }
+      },
+      "id": "1203c85c-03c8-465d-a853-ef3a5be9f0d5"
+    }
+  ],
+  "settings": {
+    "fontFamily": "LATO",
+    "shadow": {
+      "name": "empty",
+      "value": "0"
+    },
+    "mainColor": "#AE4F4F",
+    "shape": {
+      "name": "rounded",
+      "value": "10"
+    },
+    "background": {
+      "src": null,
+      "type": "COLOR",
+      "color": "#FFFFFF"
+    }
+  },
+  "fromTemplate": null,
+  "structureVersion": "2.0.0"
+}
