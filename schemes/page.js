@@ -1,42 +1,31 @@
 module.exports = {
   required: true,
-  type: 'object',
   properties: {
-    components: { required: true, type: 'array' },
+    components: { required: true },
     settings: {
       required: true,
-      type: 'object',
       properties: {
-        fontFamily: { required: true, type: 'string' },
+        fontFamily: { required: true },
         shadow: {
           required: true,
-          type: 'object',
-          properties: {
-            name: { required: true, type: 'string' },
-            value: { required: true, type: 'string' }
-          }
+          properties: { name: { required: true }, value: { required: true } }
         },
-        mainColor: { required: true, type: 'string' },
+        mainColor: { required: true },
         shape: {
           required: true,
-          type: 'object',
-          properties: {
-            name: { required: true, type: 'string' },
-            value: { required: true, type: 'string' }
-          }
+          properties: { name: { required: true }, value: { required: true } }
         },
         background: {
           required: true,
-          type: 'object',
           properties: {
             src: { required: true },
-            type: { required: true, type: 'string' },
-            color: { required: true, type: 'string' }
+            type: { required: true },
+            color: { required: true }
           }
         }
       }
     },
     fromTemplate: { required: true },
-    structureVersion: { required: true, type: 'string' }
+    structureVersion: { required: true }
   }
 };

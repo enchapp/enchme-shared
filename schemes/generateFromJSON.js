@@ -32,11 +32,11 @@ const getScheme = (obj) => {
     required: true,
   };
   const type = getType(obj);
-  if (type) {
-    scheme.type = type;
-  }
+  // if (type) {
+  //   scheme.type = type;
+  // }
 
-  if (scheme.type === 'object') {
+  if (type === 'object') {
     scheme.properties = {};
 
     Object.keys(obj).forEach((key) => {

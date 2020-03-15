@@ -1,51 +1,43 @@
 module.exports = {
   required: true,
-  type: 'object',
   properties: {
-    type: { required: true, type: 'string' },
-    id: { required: true, type: 'string' },
+    type: { required: true },
+    id: { required: true },
     text: {
       required: true,
-      type: 'object',
       properties: {
-        text: { required: true, type: 'string' },
-        historicalColors: { required: true, type: 'array' },
-        placeholder: { required: true, type: 'string' },
-        inputType: { required: true, type: 'string' },
-        relation: { required: true, type: 'string' },
-        name: { required: true, type: 'string' },
+        text: { required: true },
+        historicalColors: { required: true },
+        placeholder: { required: true },
+        inputType: { required: true },
+        relation: { required: true },
+        name: { required: true },
         styles: {
           required: true,
-          type: 'object',
           properties: {
-            fontSize: { required: true, type: 'string' },
-            fontFamily: { required: true, type: 'string' },
-            textColor: { required: true, type: 'string' },
-            textAlign: { required: true, type: 'string' },
-            lineHeight: { required: true, type: 'string' },
-            fontWeight: { required: true, type: 'string' },
-            fontStyle: { required: true, type: 'string' },
-            textDecoration: { required: true, type: 'string' },
-            color: { required: true, type: 'string' },
-            borderRadius: { required: true, type: 'string' },
+            fontSize: { required: true },
+            fontFamily: { required: true },
+            textColor: { required: true },
+            textAlign: { required: true },
+            lineHeight: { required: true },
+            fontWeight: { required: true },
+            fontStyle: { required: true },
+            textDecoration: { required: true },
+            color: { required: true },
+            borderRadius: { required: true },
             border: {
               required: true,
-              type: 'object',
-              properties: {
-                color: { required: true, type: 'string' },
-                thick: { required: true, type: 'number' }
-              }
+              properties: { color: { required: true }, thick: { required: true } }
             },
             shadow: {
               required: true,
-              type: 'object',
               properties: {
-                active: { required: true, type: 'boolean' },
-                color: { required: true, type: 'string' },
-                positionX: { required: true, type: 'number' },
-                positionY: { required: true, type: 'number' },
-                blur: { required: true, type: 'number' },
-                spread: { required: true, type: 'number' }
+                active: { required: true },
+                color: { required: true },
+                positionX: { required: true },
+                positionY: { required: true },
+                blur: { required: true },
+                spread: { required: true }
               }
             }
           }

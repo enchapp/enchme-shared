@@ -1,40 +1,36 @@
 module.exports = {
   required: true,
-  type: 'object',
   properties: {
-    type: { required: true, type: 'string' },
+    type: { required: true },
     text: {
       required: true,
-      type: 'object',
       properties: {
         link: {
           required: true,
-          type: 'object',
           properties: {
-            value: { required: true, type: 'string' },
-            type: { required: true, type: 'string' },
-            action: { required: true, type: 'string' },
-            placeholder: { required: true, type: 'string' }
+            value: { required: true },
+            type: { required: true },
+            action: { required: true },
+            placeholder: { required: true }
           }
         },
-        text: { required: true, type: 'string' },
-        historicalColors: { required: true, type: 'array' },
+        text: { required: true },
+        historicalColors: { required: true },
         styles: {
           required: true,
-          type: 'object',
           properties: {
-            fontSize: { required: true, type: 'string' },
-            fontFamily: { required: true, type: 'string' },
-            textColor: { required: true, type: 'string' },
-            textAlign: { required: true, type: 'string' },
-            lineHeight: { required: true, type: 'string' },
-            fontWeight: { required: true, type: 'string' },
-            fontStyle: { required: true, type: 'string' },
-            textDecoration: { required: true, type: 'string' }
+            fontSize: { required: true },
+            fontFamily: { required: true },
+            textColor: { required: true },
+            textAlign: { required: true },
+            lineHeight: { required: true },
+            fontWeight: { required: true },
+            fontStyle: { required: true },
+            textDecoration: { required: true }
           }
         }
       }
     },
-    id: { required: true, type: 'string' }
+    id: { required: true }
   }
 };

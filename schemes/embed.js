@@ -1,42 +1,34 @@
 module.exports = {
   required: true,
-  type: 'object',
   properties: {
-    type: { required: true, type: 'string' },
+    type: { required: true },
     embed: {
       required: true,
-      type: 'object',
       properties: {
-        mediaUrl: { required: true, type: 'string' },
-        historicalColors: { required: true, type: 'array' },
+        mediaUrl: { required: true },
+        historicalColors: { required: true },
         styles: {
           required: true,
-          type: 'object',
           properties: {
             border: {
               required: true,
-              type: 'object',
-              properties: {
-                color: { required: true, type: 'string' },
-                thick: { required: true, type: 'number' }
-              }
+              properties: { color: { required: true }, thick: { required: true } }
             },
             shadow: {
               required: true,
-              type: 'object',
               properties: {
-                active: { required: true, type: 'boolean' },
-                color: { required: true, type: 'string' },
-                positionX: { required: true, type: 'number' },
-                positionY: { required: true, type: 'number' },
-                blur: { required: true, type: 'number' },
-                spread: { required: true, type: 'number' }
+                active: { required: true },
+                color: { required: true },
+                positionX: { required: true },
+                positionY: { required: true },
+                blur: { required: true },
+                spread: { required: true }
               }
             }
           }
         }
       }
     },
-    id: { required: true, type: 'string' }
+    id: { required: true }
   }
 };
