@@ -160,6 +160,28 @@ const validateScheme = (input, deep = false) => {
 }
 
 /**
+ * Validate page name
+ *
+ * @param {String} pageName
+ * @returns {Boolean}
+ */
+// const validUsername = pageName => /^(?=.{4,32}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$/.test(username);
+const validPageName = pageName => {
+  if (!pageName) return false;
+  if (typeof pageName !== 'string') return false;
+  if (pageName.length <4 || pageName.length > 64) return false;
+
+  const chartsOk = pageName.split('').reduce((res, char) => {
+    if (!res) return res;
+    return (acceptedChars.indexOf(char) !== -1);
+  }, true);
+
+  if (!chartsOk) return false;
+
+  return true;
+}
+
+/**
  * Validate username
  *
  * @param {String} username
