@@ -41,7 +41,7 @@ const componentValidators = {
   video: validator(videoSchema, { verbose: true }),
 };
 
-const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._1234567890".split('');
+const acceptedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._-1234567890".split('');
 
 /**
  * Validate page scheme
@@ -205,3 +205,4 @@ const validUsername = username => {
 
 module.exports.validateScheme = validateScheme;
 module.exports.validUsername = validUsername;
+module.exports.validPageName = validPageName;
