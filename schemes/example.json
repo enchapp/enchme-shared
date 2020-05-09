@@ -662,5 +662,6 @@
     }
   },
   "fromTemplate": null,
+  "status": "draft",
   "structureVersion": "2.0.0"
 }

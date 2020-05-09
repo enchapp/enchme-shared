@@ -7,6 +7,7 @@ module.exports = {
       type: 'object',
     },
     fromTemplate: { required: true },
+    status: { required: true },
     structureVersion: { required: true }
   }
 };

@@ -26,6 +26,7 @@ module.exports = {
       }
     },
     fromTemplate: { required: true },
+    status: { required: true },
     structureVersion: { required: true }
   }
 };
