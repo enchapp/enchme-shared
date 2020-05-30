@@ -171,6 +171,11 @@ const validPageName = pageName => {
   if (typeof pageName !== 'string') return false;
   if (pageName.length <4 || pageName.length > 64) return false;
 
+  const startedWithNumbers = !isNaN(parseInt(pageName[0], 10));
+  if (startedWithNumbers) {
+    return false;
+  }
+
   const chartsOk = pageName.split('').reduce((res, char) => {
     if (!res) return res;
     return (acceptedChars.indexOf(char) !== -1);
